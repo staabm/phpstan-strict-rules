@@ -22,25 +22,25 @@ class Foo
 			$intOrLiteralNumericString = '123';
 		}
 
-		$int + $int;
-		$string + $int;
-		$literalNumericString + $int;
-		$intOrString + $int;
-		$intOrLiteralNumericString + $int;
+		$r = $int + $int;
+		$r = $string + $int;
+		$r = $literalNumericString + $int;
+		$r = $intOrString + $int;
+		$r = $intOrLiteralNumericString + $int;
 
 		$stringOrObject = $string;
 		if (rand(0, 1) === 0) {
 			$stringOrObject = new \stdClass();
 		}
 
-		$stringOrObject + $int;
+		$r = $stringOrObject + $int;
 
 		$unionOfLiterals = '123';
 		if (rand(0, 1) === 0) {
 			$unionOfLiterals = '456';
 		}
 
-		$unionOfLiterals + $int;
+		$r = $unionOfLiterals + $int;
 	}
 
 }
