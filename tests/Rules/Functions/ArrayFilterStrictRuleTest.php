@@ -55,4 +55,24 @@ class ArrayFilterStrictRuleTest extends RuleTestCase
 		]);
 	}
 
+	public function testRuleAllowMissingCallbackInSomeCases(): void
+	{
+		$this->treatPhpDocTypesAsCertain = true;
+		$this->checkNullables = true;
+		$this->analyse([__DIR__ . '/data/array-filter-allow.php'], [
+			[
+				'Call to function array_filter() requires parameter #2 to be passed to avoid loose comparison semantics.',
+				27,
+			],
+			[
+				'Call to function array_filter() requires parameter #2 to be passed to avoid loose comparison semantics.',
+				37,
+			],
+			[
+				'Call to function array_filter() requires parameter #2 to be passed to avoid loose comparison semantics.',
+				49,
+			],
+		]);
+	}
+
 }
