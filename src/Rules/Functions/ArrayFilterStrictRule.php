@@ -83,12 +83,7 @@ class ArrayFilterStrictRule implements Rule
 		}
 
 		if (count($args) === 1) {
-			if ($this->treatPhpDocTypesAsCertain) {
-				$arrayType = $scope->getType($args[0]->value);
-			} else {
-				$arrayType = $scope->getNativeType($args[0]->value);
-			}
-
+			$arrayType = $scope->getType($args[0]->value);
 			$itemType = $arrayType->getIterableValueType();
 			if ($itemType instanceof UnionType) {
 				$hasTruthy = false;
