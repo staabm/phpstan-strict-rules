@@ -1,0 +1,19 @@
+tests/Rules/Cast/UselessCastRuleTest.php
+  s_e3d0ad47480280::t_c70cc8f09a635a 100-105
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "526a58ecc18fb480bdea2a56337aa1ef999cb53d",
+  "prompts": {},
+  "sessions": {
+    "s_e3d0ad47480280": {
+      "agent_id": {
+        "tool": "github-copilot-cli",
+        "id": "dcd07de3-e411-4193-b9b7-95d8b24fd2ad",
+        "model": "unknown"
+      },
+      "human_author": "Markus Staab <markus.staab@redaxo.de>"
+    }
+  }
+}
