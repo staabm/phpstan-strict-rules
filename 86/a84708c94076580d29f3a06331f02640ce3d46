@@ -1,0 +1,33 @@
+tests/Rules/Cast/UselessCastRuleTest.php
+  s_e3d0ad47480280::t_13307cf057e367 16-17,22,100-119
+  s_e3d0ad47480280::t_742ca734de54d0 120
+src/Rules/Cast/UselessCastRule.php
+  s_e3d0ad47480280::t_086265c6197200 9-10,69-70,72-73,77-83
+  s_e3d0ad47480280::t_13307cf057e367 61-68,84-88,90
+  s_e3d0ad47480280::t_27c86dd3fb8a4a 6,74-76
+  s_e3d0ad47480280::t_09df67f5dfb75c 71
+tests/Rules/Cast/data/useless-cast-fixable.php.fixed
+  s_e3d0ad47480280::t_5a8ad4b530365f 64-66
+  s_e3d0ad47480280::t_086265c6197200 67
+  s_e3d0ad47480280::t_13307cf057e367 1-63,69-71
+  s_e3d0ad47480280::t_09df67f5dfb75c 68
+tests/Rules/Cast/data/useless-cast-fixable.php
+  s_e3d0ad47480280::t_5a8ad4b530365f 64-66
+  s_e3d0ad47480280::t_13307cf057e367 1-63,67-71
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "86a84708c94076580d29f3a06331f02640ce3d46",
+  "prompts": {},
+  "sessions": {
+    "s_e3d0ad47480280": {
+      "agent_id": {
+        "tool": "github-copilot-cli",
+        "id": "dcd07de3-e411-4193-b9b7-95d8b24fd2ad",
+        "model": "unknown"
+      },
+      "human_author": "Markus Staab <markus.staab@redaxo.de>"
+    }
+  }
+}
