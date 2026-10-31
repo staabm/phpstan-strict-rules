@@ -1,0 +1,14 @@
+src/Rules/Cast/UselessCastRule.php
+  h_53f8f6db02589e 70-71
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "82dab5cd029a967c00d96f15f7e979b0a3726f5e",
+  "prompts": {},
+  "humans": {
+    "h_53f8f6db02589e": {
+      "author": "Markus Staab <markus.staab@redaxo.de>"
+    }
+  }
+}
