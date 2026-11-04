@@ -1,0 +1,25 @@
+src/Rules/StrictCalls/StrictFunctionCallsRule.php
+  s_009f33ef86b86e::t_1b86bda86e7fbe 132
+  s_009f33ef86b86e::t_75ff76004b8902 133
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "11d068efd946c26eb82d206b010221ef6093e632",
+  "prompts": {},
+  "humans": {
+    "h_53f8f6db02589e": {
+      "author": "Markus Staab <markus.staab@redaxo.de>"
+    }
+  },
+  "sessions": {
+    "s_009f33ef86b86e": {
+      "agent_id": {
+        "tool": "github-copilot-jetbrains",
+        "id": "1793710163737",
+        "model": "unknown"
+      },
+      "human_author": "Markus Staab <markus.staab@redaxo.de>"
+    }
+  }
+}
