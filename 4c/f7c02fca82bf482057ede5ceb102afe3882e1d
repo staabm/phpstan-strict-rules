@@ -1,0 +1,25 @@
+Makefile
+  s_009f33ef86b86e::t_6006a09bb7170b 11
+  h_53f8f6db02589e 12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "4cf7c02fca82bf482057ede5ceb102afe3882e1d",
+  "prompts": {},
+  "humans": {
+    "h_53f8f6db02589e": {
+      "author": "Markus Staab <markus.staab@redaxo.de>"
+    }
+  },
+  "sessions": {
+    "s_009f33ef86b86e": {
+      "agent_id": {
+        "tool": "github-copilot-jetbrains",
+        "id": "1793710163737",
+        "model": "unknown"
+      },
+      "human_author": "Markus Staab <markus.staab@redaxo.de>"
+    }
+  }
+}
