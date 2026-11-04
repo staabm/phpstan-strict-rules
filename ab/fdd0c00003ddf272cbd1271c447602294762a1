@@ -1,0 +1,21 @@
+tests/Rules/StrictCalls/data/strict-function-calls-fixable.php.fixed
+  s_da5d25aacf9764::t_4c4243d91042f2 79-97
+tests/Rules/StrictCalls/data/strict-function-calls-fixable.php
+  s_da5d25aacf9764::t_bf56dcecfbeb00 79-97
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "abfdd0c00003ddf272cbd1271c447602294762a1",
+  "prompts": {},
+  "sessions": {
+    "s_da5d25aacf9764": {
+      "agent_id": {
+        "tool": "github-copilot-cli",
+        "id": "4e5f11e7-be2f-4176-8343-fd4e3bf8b26e",
+        "model": "unknown"
+      },
+      "human_author": "Markus Staab <markus.staab@redaxo.de>"
+    }
+  }
+}
