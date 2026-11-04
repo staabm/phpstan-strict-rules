@@ -1,0 +1,32 @@
+tests/Rules/StrictCalls/data/strict-function-calls-named-arguments.php
+  h_53f8f6db02589e 28
+  s_da5d25aacf9764::t_3db1b82c3bd2b0 29-30
+src/Rules/StrictCalls/StrictFunctionCallsRule.php
+  s_da5d25aacf9764::t_3532a7781ad2c0 129,132-135,144-151,157-162
+  s_da5d25aacf9764::t_dbaf97480a9444 9,12,22,177-179
+  s_da5d25aacf9764::t_6be777d57ce6e7 169-176
+tests/Rules/StrictCalls/data/strict-function-calls-named-arguments.php.fixed
+  s_da5d25aacf9764::t_6856332b23d332 29-30
+  h_53f8f6db02589e 28
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "7771be11dffc503710d2174683b09f99ad7d0f27",
+  "prompts": {},
+  "humans": {
+    "h_53f8f6db02589e": {
+      "author": "Markus Staab <markus.staab@redaxo.de>"
+    }
+  },
+  "sessions": {
+    "s_da5d25aacf9764": {
+      "agent_id": {
+        "tool": "github-copilot-cli",
+        "id": "4e5f11e7-be2f-4176-8343-fd4e3bf8b26e",
+        "model": "unknown"
+      },
+      "human_author": "Markus Staab <markus.staab@redaxo.de>"
+    }
+  }
+}
