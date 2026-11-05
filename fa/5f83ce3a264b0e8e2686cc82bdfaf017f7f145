@@ -1,0 +1,26 @@
+tests/Rules/StrictCalls/data/strict-function-calls-positional-before-named.php
+  s_009f33ef86b86e::t_1645008f94fb45 3
+tests/Rules/StrictCalls/data/strict-function-calls-positional-before-named.php.fixed
+  s_009f33ef86b86e::t_38787d291c7a84 3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "fa5f83ce3a264b0e8e2686cc82bdfaf017f7f145",
+  "prompts": {},
+  "humans": {
+    "h_53f8f6db02589e": {
+      "author": "Markus Staab <markus.staab@redaxo.de>"
+    }
+  },
+  "sessions": {
+    "s_009f33ef86b86e": {
+      "agent_id": {
+        "tool": "github-copilot-jetbrains",
+        "id": "1793710163737",
+        "model": "unknown"
+      },
+      "human_author": "Markus Staab <markus.staab@redaxo.de>"
+    }
+  }
+}
